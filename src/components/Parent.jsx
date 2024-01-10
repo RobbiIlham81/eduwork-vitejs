@@ -10,7 +10,7 @@ function Parent() {
       <ButtonClass text="Count"></ButtonClass>
 
       {/* PENULISAN KEDUA */}
-      <ButtonClass text="Hello" />
+      <ButtonClass text="Hello Robby" />
     </div>
   );
 }
