@@ -2,15 +2,18 @@ import ButtonClass from "./ButtonClass";
 import Title from "./Title";
 
 function Parent() {
+  const handleChildToParent = (paylod) => {
+    console.log("INI", paylod);
+  };
   return (
     <div style={{ background: "lavender" }}>
-      <Title wording="Hello Robbi" />
+      <Title wording="Ready" name="Robby" sendDataNameToParent={handleChildToParent} />
 
       {/* PENULISAN PERTAMA */}
-      <ButtonClass text="Count"></ButtonClass>
+      <ButtonClass></ButtonClass>
 
       {/* PENULISAN KEDUA */}
-      <ButtonClass text="Hello Robby" />
+      <ButtonClass text="count" />
     </div>
   );
 }
