@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 
-// import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/CSS/globals.css";
-import "./assets/SCSS/StyleInputRadio.scss";
+import "./assets/SCSS/StyleImages.scss";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
