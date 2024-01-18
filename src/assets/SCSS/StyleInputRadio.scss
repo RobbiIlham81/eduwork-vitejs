@@ -1,0 +1,26 @@
+// .container--input {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-start;
+//   align-items: self-start;
+
+//   & .input-form {
+//     border: 2px solid red;
+//   }
+// }
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.img-fortopolio {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  background-image: url(../Images/fortopolio4.png);
+  background-size: cover;
+
+  border: 2px solid lightcoral;
+}
