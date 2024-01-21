@@ -1,6 +1,6 @@
 import { Form, Card, CardBody, FormLabel, Button, FormGroup, FormControl } from "react-bootstrap";
 import { useFormik } from "formik";
-import { basicSchema } from "../../schemas";
+import { basicSchema } from "../../schemas/Index";
 
 const onSubmit = async (values, actions) => {
   alert(`
