@@ -5,8 +5,9 @@
 // import { Container } from "react-bootstrap";
 // import FormCom from "./components/FormCom/Index";
 
-import LifeCycleComponent from "./components/lifecycle";
-import NavbarComponent from "./components/navbar";
+// import LifeCycleComponent from "./components/lifecycle";
+// import NavbarComponent from "./components/navbar";
+import Component from "./components/NewsHook";
 
 // import Navbar from "./components/NewsAppCom/Navbar";
 // import News from "./components/NewsAppCom/News/News";
@@ -23,8 +24,9 @@ function App() {
       <NewsBoard category={category} /> */}
       {/* <Navbar />
       <News /> */}
-      <NavbarComponent />
-      <LifeCycleComponent />
+      {/* <NavbarComponent />
+      <LifeCycleComponent /> */}
+      <Component />
     </div>
   );
 }
