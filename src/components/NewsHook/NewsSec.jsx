@@ -1,4 +1,3 @@
-import React, { useRef } from "react";
 import { useApi } from "../../configs";
 
 const NewsSec = () => {

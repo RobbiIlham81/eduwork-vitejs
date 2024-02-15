@@ -7,7 +7,9 @@
 
 // import LifeCycleComponent from "./components/lifecycle";
 // import NavbarComponent from "./components/navbar";
-import Component from "./components/NewsHook";
+// import Component from "./components/NewsHook";
+import { Outlet } from "react-router-dom";
+import NavbarSec from "./components/AppsRouting/navbar/navbarsec";
 
 // import Navbar from "./components/NewsAppCom/Navbar";
 // import News from "./components/NewsAppCom/News/News";
@@ -26,7 +28,8 @@ function App() {
       <News /> */}
       {/* <NavbarComponent />
       <LifeCycleComponent /> */}
-      <Component />
+      <NavbarSec />
+      <Outlet />
     </div>
   );
 }
